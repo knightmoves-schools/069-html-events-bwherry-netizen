@@ -3,13 +3,8 @@ function calculateSquare(){
     let result = document.getElementById('result');
 
     //add code here
-    if (value == nan) {
-        document.getElementById("result").innerHTML = 'Invalid, please enter a number';
-    } else {
-        document.getElementById("result").innerHTML = multi;
-    }
-
-    let multi = value * value;
+   document.getElementById("result").innerHTML = value * value;
     
     
 }
+

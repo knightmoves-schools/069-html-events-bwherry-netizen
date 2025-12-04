@@ -4,12 +4,12 @@ function calculateSquare(){
 
     //add code here
     if (value == nan) {
-        return 'Invalid, please enter a number';
+        document.getElementById("result").innerHTML = 'Invalid, please enter a number';
+    } else {
+        document.getElementById("result").innerHTML = multi;
     }
 
     let multi = value * value;
     
     
 }
-
-document.getElementById("result").innerHTML = multi;

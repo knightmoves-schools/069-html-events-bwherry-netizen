@@ -3,7 +3,7 @@ function calculateSquare(){
     let result = document.getElementById('result');
 
     //add code here
-   if (isNaN(Value) || value === '') {
+   if (isNaN(value) || value === '') {
        result.innerHTML = 'Invalid, please enter a number';
    } else {
        result.innerHTML = value * value*
@@ -11,3 +11,4 @@ function calculateSquare(){
 }
 
 document.getElementById('calculate').addEventListener('click', calculateSquare);
+

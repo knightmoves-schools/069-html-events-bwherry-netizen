@@ -3,8 +3,11 @@ function calculateSquare(){
     let result = document.getElementById('result');
 
     //add code here
-   document.getElementById("result").innerHTML = value * value;
-    
-    
+   if (isNaN(Value) || value === '') {
+       result.innerHTML = 'Invalid, please enter a number';
+   } else {
+       result.innerHTML = value * value*
+   }   
 }
 
+document.getElementById('calculate').addEventListener('click', calculateSquare);

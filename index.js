@@ -6,9 +6,10 @@ function calculateSquare(){
    if (isNaN(value) || value === '') {
        result.innerHTML = 'Invalid, please enter a number';
    } else {
-       result.innerHTML = value * value*
+       result.innerHTML = value * value;
    }   
 }
 
 document.getElementById('calculate').addEventListener('click', calculateSquare);
+
 
